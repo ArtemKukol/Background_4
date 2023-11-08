@@ -1,0 +1,42 @@
+body {
+   display: grid;
+   grid-gap: 30px;
+   grid-template-columns: 1fr 1fr;
+ 
+   font: 14px/1.5 monospace;
+ }
+ 
+ .section {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 200px;
+   padding: 20px;
+ 
+   font-weight: bold;
+ 
+   font-size: 30px;
+   text-align: center;
+ 
+   background: #ffeb3b;
+   border: 10px dashed #000;
+ }
+ 
+ .image {
+   background-image: url("https://assets.codepen.io/1425525/tota_ill_12.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ 
+ .bg-border {
+   background-origin: border-box;
+ }
+ 
+ .bg-padding {
+   background-origin: padding-box;
+ }
+ 
+ .bg-content {
+   background-origin: content-box;
+ }
+ 
